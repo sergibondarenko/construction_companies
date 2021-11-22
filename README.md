@@ -1,5 +1,3 @@
-# Cosuno
-
 ## Development
 
 ### Environment variables
