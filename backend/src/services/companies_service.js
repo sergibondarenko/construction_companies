@@ -2,7 +2,7 @@ const companies = require('../../data/data.json');
 
 class CompaniesService {
   fetchAll({ searchFilter = [] } = {}) {
-    if (searchFilter && searchFilter?.length) {
+    if (searchFilter && searchFilter.length) {
       return Promise.resolve(companies.filter((c) => searchFilter.includes(c.speciality)));
     }
 
@@ -10,7 +10,7 @@ class CompaniesService {
   }
 
   find({ companyName, searchFilter = [] } = {}) {
-    if (searchFilter && searchFilter?.length) {
+    if (searchFilter && searchFilter.length) {
       return Promise.resolve(
         companies.filter((c) => 
           c.name.toLowerCase().includes(companyName) &&

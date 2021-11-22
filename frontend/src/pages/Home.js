@@ -92,7 +92,7 @@ export function CompanyCard({ data }) {
     overflow-hidden shadow-lg cursor-pointer transition 
     duration-500 ease-in-out transform hover:-translate-y-1 
     hover:scale-105 hover:shadow-xl bg-white">
-      <img src={data.logo} alt="Company logo" className="w-full h-72 object-cover" />
+      <img src={data.logo} alt="Company logo" className="w-full h-72 object-cover" loading="lazy" />
       <div className="p-4">
         <p>Name: {data.name}</p>
         <p>City: {data.city}</p>

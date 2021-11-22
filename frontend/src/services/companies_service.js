@@ -1,7 +1,9 @@
 import { httpClient } from './http_client';
 
+const SERVER_URL = process.env.REACT_APP_BACKEND_URL;
+
 export function buildURL({ searchFilter, companyName, pathName }) {
-  const url = new URL(`http://placeholder/${pathName}`);
+  const url = new URL(SERVER_URL + pathName);
   
   if (companyName) {
     url.searchParams.set('companyName', companyName);
@@ -16,17 +18,17 @@ export function buildURL({ searchFilter, companyName, pathName }) {
     url.searchParams.set('searchFilter', filter);
   }
 
-  return url.pathname + url.search;
+  return url.href;
 }
 
 export class CompaniesService {
   fetchAll({ searchFilter = {} } = {}) {
-    const url = buildURL({ pathName: 'api/v1/companies', searchFilter });
+    const url = buildURL({ pathName: '/api/v1/companies', searchFilter });
     return httpClient.get(url);
   }
 
   find({ companyName, searchFilter = {} } = {}) {
-    const url = buildURL({ pathName: 'api/v1/companies', searchFilter, companyName });
+    const url = buildURL({ pathName: '/api/v1/companies', searchFilter, companyName });
     return httpClient.get(url);
   }
 }
