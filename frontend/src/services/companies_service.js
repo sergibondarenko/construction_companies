@@ -16,7 +16,6 @@ export function buildURL({ searchFilter, companyName, pathName }) {
     url.searchParams.set('searchFilter', filter);
   }
 
-  console.log(url);
   return url.pathname + url.search;
 }
 
