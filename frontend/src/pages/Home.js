@@ -35,7 +35,7 @@ export function Home() {
     setError(null);
 
     try {
-      const res = await companiesService.find({ searchInput });
+      const res = await companiesService.find({ companyName: searchInput });
       console.debug('fetchCompanies', res.data);
       setCompanies(res.data);
     } catch (error) {

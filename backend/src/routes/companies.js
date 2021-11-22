@@ -6,13 +6,13 @@ function defineCompanyRoutes({ app }) {
   app.post(
     '/api/v1/companies',
     async (req, res) => {
-      const { searchInput } = req.body;
+      const { companyName } = req.body;
 
       try {
-        if (!searchInput) {
+        if (!companyName) {
           res.json(await companiesService.fetchAll()); 
         } else {
-          res.json(await companiesService.find({ companyName: searchInput }));
+          res.json(await companiesService.find({ companyName }));
         }
       } catch (err) {
         console.error('Fail to fetch companies', err);

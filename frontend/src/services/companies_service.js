@@ -5,7 +5,7 @@ export class CompaniesService {
     return httpClient.post('/api/v1/companies');
   }
 
-  find({ searchInput }) {
-    return httpClient.post('/api/v1/companies', { searchInput });
+  find({ companyName }) {
+    return httpClient.post('/api/v1/companies', { companyName });
   }
 }
