@@ -1,11 +1,13 @@
-const comapanies = require('../../data/data.json');
+const { CompaniesService } = require('../services');
 
 function defineCompanyRoutes({ app }) {
+  const companiesService = new CompaniesService();
+  
   app.get(
     '/api/v1/companies',
-    (req, res) => {
+    async (req, res) => {
       try {
-        res.json(comapanies);
+        res.json(await companiesService.fetchAll()); 
       } catch (err) {
         console.error('Fail to fetch companies', err);
         res.status(500).send('Fail to fetch companies');
