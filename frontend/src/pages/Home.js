@@ -3,7 +3,7 @@ import { Page } from './Page';
 import { useCompanies } from '../hooks';
 
 export function Home() {
-  const { error, isLoading, companies, fetchAllCompanies, fetchCompanies } = useCompanies();
+  const { error, isLoading, companies, fetchAllCompanies, debounceFetchCompanies } = useCompanies();
   const [searchInput, setSearchInput] = useState('');
   const [searchFilter, setSearchFilter] = useState(DEFAULT_SEARCH_FILTER);
 
@@ -21,7 +21,7 @@ export function Home() {
   }, []);
 
   useEffect(() => {
-    fetchCompanies({ searchInput, searchFilter });
+    debounceFetchCompanies({ searchInput, searchFilter });
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchInput, searchFilter])
 

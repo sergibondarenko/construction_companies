@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useState, useMemo, useEffect } from 'react';
+import { debounce } from 'lodash';
 import { CompaniesService } from '../services';
 import { errorToString } from '../helpers';
 
@@ -41,5 +42,20 @@ export function useCompanies() {
     setIsLoading(false);
   }
 
-  return { error, isLoading, companies, fetchAllCompanies, fetchCompanies };
+  const debounceFetchCompanies = useMemo(() => {
+    return debounce((args) => {
+      console.log('---------------args', args);
+      return fetchCompanies(args);
+    }, 1000);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  useEffect(() => {
+    return () => {
+      debounceFetchCompanies.cancel();
+    };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  return { error, isLoading, companies, fetchAllCompanies, fetchCompanies, debounceFetchCompanies };
 }
