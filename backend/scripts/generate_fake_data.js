@@ -8,7 +8,7 @@ const specialities = ['excavation', 'plumbing', 'electrical'];
 
 const res = [];
 
-for (let i = 0; i < 1000; i++) {
+for (let i = 0; i < 100; i++) {
   const speciality = specialities[Math.floor(Math.random() * specialities.length)];
   const name = faker.company.companyName();
   const city = faker.address.city();
