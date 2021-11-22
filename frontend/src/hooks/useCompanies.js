@@ -44,7 +44,6 @@ export function useCompanies() {
 
   const debounceFetchCompanies = useMemo(() => {
     return debounce((args) => {
-      console.log('---------------args', args);
       return fetchCompanies(args);
     }, 1000);
   // eslint-disable-next-line react-hooks/exhaustive-deps
