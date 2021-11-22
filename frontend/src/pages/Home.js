@@ -2,6 +2,12 @@ import React, { useEffect, useState } from 'react';
 import { CompaniesService } from '../services';
 import { errorToString } from '../helpers';
 
+const DEFAULT_SEARCH_FILTER = {
+  plumbing: false,
+  excavation: false,
+  electrical: false
+};
+
 export function Home() {
   const companiesService = new CompaniesService();
 
@@ -9,17 +15,14 @@ export function Home() {
   const [error, setError] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
   const [searchInput, setSearchInput] = useState('');
+  const [searchFilter, setSearchFilter] = useState(DEFAULT_SEARCH_FILTER);
 
-  function handleSearchInput(e) {
-    setSearchInput(e.target.value);
-  }
-
-  async function fetchAllCompanies() {
+  async function fetchAllCompanies({ searchFilter }) {
     setIsLoading(true);
     setError(null);
 
     try {
-      const res = await companiesService.fetchAll();
+      const res = await companiesService.fetchAll({ searchFilter });
       console.debug('fetchAllCompanies', res.data);
       setCompanies(res.data);
     } catch (error) {
@@ -30,12 +33,12 @@ export function Home() {
     setIsLoading(false);
   }
 
-  async function fetchCompanies({ searchInput }) {
+  async function fetchCompanies({ searchInput, searchFilter }) {
     setIsLoading(true);
     setError(null);
 
     try {
-      const res = await companiesService.find({ companyName: searchInput });
+      const res = await companiesService.find({ companyName: searchInput, searchFilter });
       console.debug('fetchCompanies', res.data);
       setCompanies(res.data);
     } catch (error) {
@@ -46,24 +49,44 @@ export function Home() {
     setIsLoading(false);
   }
 
+  function handleSearchInput(e) {
+    setSearchInput(e.target.value);
+  }
+
+  function handleSearchFilter(e) {
+    const filterName = e.target.id;
+    setSearchFilter(prev => ({ ...prev, [filterName]: !prev[filterName] }));
+  }
+
   useEffect(() => {
-    fetchAllCompanies();
+    fetchAllCompanies({ searchFilter });
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
-    fetchCompanies({ searchInput });
+    fetchCompanies({ searchInput, searchFilter });
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [searchInput])
+  }, [searchInput, searchFilter])
+
+  useEffect(() => {
+    console.log('searchFilter', searchFilter);
+  }, [searchFilter]);
 
   return (
     <div>
       <h2>List of construction companies</h2>
 
-      {error && <h3 style={{ color: 'red' }}>error</h3>}
+      {error && <h3 style={{ color: 'red' }}>{error}</h3>}
       {isLoading && <h3>Is loading ...</h3>}
 
       <input type="text" value={searchInput} onChange={handleSearchInput} />
+      <input type="checkbox" id="excavation" name="excavation" onChange={handleSearchFilter} />
+      <label for="excavation">Excavation</label>
+      <input type="checkbox" id="plumbing" name="plumbing" onChange={handleSearchFilter} />
+      <label for="excavation">Plumbing</label>
+      <input type="checkbox" id="electrical" name="electrical" onChange={handleSearchFilter} />
+      <label for="excavation">Electrical</label>
+      
       <CompaniesList data={companies} />
     </div>
   );
