@@ -1,602 +1,182 @@
 [
   {
-    "name": "Gutmann Inc",
-    "speciality": "electrical",
-    "city": "Dearborn Heights",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Dietrich - Mayer",
+    "name": "Lowe - Mraz",
     "speciality": "excavation",
-    "city": "Peoria",
-    "logo": "http://placekitten.com/g/200/300"
+    "city": "Blue Springs",
+    "logo": "https://www.wpdcpa.com/wp-content/uploads/2020/11/Construction-companies-Section-179-scaled-e1604346272491.jpg"
   },
   {
-    "name": "Schuppe, Nicolas and Pagac",
+    "name": "Koelpin and Sons",
     "speciality": "electrical",
-    "city": "East Arnoldo",
-    "logo": "http://placekitten.com/g/200/300"
+    "city": "Padbergfort",
+    "logo": "https://tgcconstructioncompany.com/x/cdn/?https://storage.googleapis.com/wzukusers/user-21619405/images/5b75d52ebd8e72ooRgfs/20_free_blueprint_construction_photoshop_brushes_68197931.jpg"
   },
   {
-    "name": "Miller Group",
+    "name": "Vandervort LLC",
+    "speciality": "electrical",
+    "city": "Langoshburgh",
+    "logo": "https://d3qw18ectmnvvf.cloudfront.net/assets/images/blog-images/6-reasons-why-construction-industry-need-erp-solution-1.png"
+  },
+  {
+    "name": "Okuneva, Gaylord and Pfannerstill",
+    "speciality": "electrical",
+    "city": "Lake Vivianne",
+    "logo": "https://www.zaragoza2012.es/wp-content/uploads/2021/05/Direccion-de-Obra-bcn-1.jpg"
+  },
+  {
+    "name": "Klein Group",
     "speciality": "excavation",
-    "city": "Lake Keith",
-    "logo": "http://placekitten.com/g/200/300"
+    "city": "Watsonstad",
+    "logo": "https://airtightconstruction.com/wp-content/uploads/2021/06/5-Reasons-to-Hire-a-Local-Bay-Area-Construction-Company.jpg"
   },
   {
-    "name": "Huels - Cassin",
-    "speciality": "plumbing",
-    "city": "Ferryfurt",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Huels - Weissnat",
-    "speciality": "electrical",
-    "city": "Haleyhaven",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Toy - Brakus",
-    "speciality": "plumbing",
-    "city": "Port Audie",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Crist - Wehner",
-    "speciality": "electrical",
-    "city": "Port Juddhaven",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Klein - Herman",
-    "speciality": "electrical",
-    "city": "Port Grahamburgh",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Reichel Inc",
-    "speciality": "plumbing",
-    "city": "Fall River",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Bernier - Trantow",
+    "name": "Barton Inc",
     "speciality": "excavation",
-    "city": "West Mylene",
-    "logo": "http://placekitten.com/g/200/300"
+    "city": "Michelleside",
+    "logo": "https://images.creativetemplate.net/wp-content/uploads/2018/03/Latest-Construction-Company-Flyer-Design.jpg"
   },
   {
-    "name": "Hintz and Sons",
+    "name": "Ward Inc",
+    "speciality": "plumbing",
+    "city": "New Joannie",
+    "logo": "https://www.insideconstruction.com.au/wp-content/uploads/2021/02/ADCOConstruction.jpg"
+  },
+  {
+    "name": "D'Amore - Paucek",
+    "speciality": "plumbing",
+    "city": "Port Gaylord",
+    "logo": "https://www.chinadaily.com.cn/business/img/attachement/jpg/site1/20160722/b083fe955aa118fba45714.jpg"
+  },
+  {
+    "name": "Rogahn Inc",
+    "speciality": "electrical",
+    "city": "West Jessycaborough",
+    "logo": "https://www.financenewsaustralia.com/wp-content/uploads/2017/06/Running-A-Construction-Business.jpg"
+  },
+  {
+    "name": "Jerde Inc",
+    "speciality": "plumbing",
+    "city": "Wymanside",
+    "logo": "https://www.turnerconstruction.com/Files/GetSharepointImage?url=%2FRichTextImages%2FPittsburgh%2F2019_CSC%2520Denmarsh%2520(11%2520of%252014).jpg"
+  },
+  {
+    "name": "Jenkins, Konopelski and Anderson",
     "speciality": "excavation",
-    "city": "Cortneyfurt",
-    "logo": "http://placekitten.com/g/200/300"
+    "city": "Kingborough",
+    "logo": "https://erpnews.com/v2/wp-content/uploads/2021/07/construction-engineers-discussion-with-architects-7NQ9PJZ.jpg"
   },
   {
-    "name": "Erdman, Stroman and Bauch",
+    "name": "Fisher - Pollich",
     "speciality": "plumbing",
-    "city": "Cruickshankberg",
-    "logo": "http://placekitten.com/g/200/300"
+    "city": "Darrylhaven",
+    "logo": "https://www.eeresources.biz/wp-content/uploads/2021/04/construction-company.jpeg"
   },
   {
-    "name": "Kunze, Sauer and Leuschke",
+    "name": "Douglas and Sons",
+    "speciality": "plumbing",
+    "city": "East Tommieview",
+    "logo": "https://www.kypbuilders.com/images/articles/welcome.jpg"
+  },
+  {
+    "name": "Towne - Beatty",
     "speciality": "excavation",
-    "city": "Upland",
-    "logo": "http://placekitten.com/g/200/300"
+    "city": "West Valley City",
+    "logo": "https://www.insideconstruction.com.au/wp-content/uploads/2021/02/ADCOConstruction.jpg"
   },
   {
-    "name": "Ebert Inc",
+    "name": "Welch Group",
+    "speciality": "electrical",
+    "city": "Nobleton",
+    "logo": "https://gather-content-assets.s3.eu-west-2.amazonaws.com/misc/_600xAUTO_crop_center-center_none/Case-Study-Construction-Anonymous.jpg"
+  },
+  {
+    "name": "Gulgowski - Gerlach",
+    "speciality": "electrical",
+    "city": "Morrisside",
+    "logo": "https://www.euro-resource.co.uk/wp-content/uploads/2019/04/quantitysurveyor-e1478014272758.jpg"
+  },
+  {
+    "name": "Klocko - Schuppe",
+    "speciality": "electrical",
+    "city": "Redmond",
+    "logo": "https://www.financenewsaustralia.com/wp-content/uploads/2017/06/Running-A-Construction-Business.jpg"
+  },
+  {
+    "name": "Fay - Waelchi",
     "speciality": "plumbing",
-    "city": "East Janet",
-    "logo": "http://placekitten.com/g/200/300"
+    "city": "Arlington Heights",
+    "logo": "http://st2.depositphotos.com/1011643/5817/i/450/depositphotos_58173265-Company-workers-in-substation.jpg"
   },
   {
-    "name": "Mosciski - Goyette",
+    "name": "Collier Inc",
+    "speciality": "plumbing",
+    "city": "Pittsfield",
+    "logo": "https://www.badgebox.com/landing/images/img_story_building.jpg"
+  },
+  {
+    "name": "Jacobson Inc",
+    "speciality": "plumbing",
+    "city": "Labadieborough",
+    "logo": "https://erpnews.com/v2/wp-content/uploads/2021/07/construction-engineers-discussion-with-architects-7NQ9PJZ.jpg"
+  },
+  {
+    "name": "Emmerich - Jones",
+    "speciality": "electrical",
+    "city": "North Emmett",
+    "logo": "https://www.turnerconstruction.com/Files/GetSharepointImage?url=%2FRichTextImages%2FPittsburgh%2F2019_CSC%2520Denmarsh%2520(11%2520of%252014).jpg"
+  },
+  {
+    "name": "Grimes, Halvorson and Prohaska",
+    "speciality": "electrical",
+    "city": "Hoffman Estates",
+    "logo": "https://www.romania-company.com/files/large/4f2afbf44455dc0e57e31d02f30fb89e.png"
+  },
+  {
+    "name": "Mann - Walter",
     "speciality": "excavation",
-    "city": "Rancho Palos Verdes",
-    "logo": "http://placekitten.com/g/200/300"
+    "city": "Audreymouth",
+    "logo": "https://d3cl79h6n1fe0x.cloudfront.net/wp-content/uploads/2018/07/12101357/AdobeStock_89360463.jpeg"
   },
   {
-    "name": "Cole - Klein",
+    "name": "Lang, Ledner and Rau",
+    "speciality": "plumbing",
+    "city": "South Tatumville",
+    "logo": "https://www.euro-resource.co.uk/wp-content/uploads/2019/04/Crane-1.jpg"
+  },
+  {
+    "name": "Lehner and Sons",
+    "speciality": "electrical",
+    "city": "Mannton",
+    "logo": "https://www.insideconstruction.com.au/wp-content/uploads/2021/02/ADCOConstruction.jpg"
+  },
+  {
+    "name": "Dooley, Davis and Sanford",
     "speciality": "excavation",
-    "city": "Bonita Springs",
-    "logo": "http://placekitten.com/g/200/300"
+    "city": "West Cleo",
+    "logo": "https://digitalmarketingdeal.com/blog/wp-content/uploads/2021/03/Construction-companies-in-Californias-1.jpg"
   },
   {
-    "name": "Romaguera Inc",
+    "name": "Leannon and Sons",
     "speciality": "electrical",
-    "city": "South Gordon",
-    "logo": "http://placekitten.com/g/200/300"
+    "city": "Dublin",
+    "logo": "https://d3cl79h6n1fe0x.cloudfront.net/wp-content/uploads/2018/07/12101357/AdobeStock_89360463.jpeg"
   },
   {
-    "name": "Murazik, Conn and Nader",
-    "speciality": "plumbing",
-    "city": "Lueilwitzfort",
-    "logo": "http://placekitten.com/g/200/300"
+    "name": "King, Nader and Lockman",
+    "speciality": "electrical",
+    "city": "Zulaufstad",
+    "logo": "https://d3qw18ectmnvvf.cloudfront.net/assets/images/blog-images/6-reasons-why-construction-industry-need-erp-solution-1.png"
   },
   {
-    "name": "Braun - Bartoletti",
+    "name": "Yundt, Sipes and Olson",
     "speciality": "excavation",
-    "city": "Port Dejahville",
-    "logo": "http://placekitten.com/g/200/300"
+    "city": "Haleyport",
+    "logo": "https://www.euro-resource.co.uk/wp-content/uploads/2019/04/quantitysurveyor-e1478014272758.jpg"
   },
   {
-    "name": "Pouros, Raynor and Legros",
-    "speciality": "plumbing",
-    "city": "South Abdul",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Weber - Fadel",
-    "speciality": "excavation",
-    "city": "Grovertown",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Stracke LLC",
-    "speciality": "excavation",
-    "city": "New Jack",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Sipes Group",
+    "name": "Schmidt Group",
     "speciality": "electrical",
-    "city": "New Hollie",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Baumbach Group",
-    "speciality": "electrical",
-    "city": "Larsonbury",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Littel - Auer",
-    "speciality": "excavation",
-    "city": "Franciscahaven",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "O'Conner Inc",
-    "speciality": "plumbing",
-    "city": "Jacobifort",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Price, Kshlerin and Emard",
-    "speciality": "excavation",
-    "city": "South Larissatown",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Rath - McGlynn",
-    "speciality": "plumbing",
-    "city": "Olsonberg",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Green, Zieme and Kozey",
-    "speciality": "plumbing",
-    "city": "Port St. Lucie",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "O'Reilly - Flatley",
-    "speciality": "plumbing",
-    "city": "North Orval",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Mayert Inc",
-    "speciality": "plumbing",
-    "city": "New Mabelton",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Jacobi Inc",
-    "speciality": "excavation",
-    "city": "Nicolaston",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Crooks - Crist",
-    "speciality": "electrical",
-    "city": "New Breannaside",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Frami - Muller",
-    "speciality": "plumbing",
-    "city": "York",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Borer - Franecki",
-    "speciality": "plumbing",
-    "city": "Gwenmouth",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Kozey - Leffler",
-    "speciality": "plumbing",
-    "city": "South Antonettachester",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Ernser, Bergnaum and Muller",
-    "speciality": "excavation",
-    "city": "South Maryambury",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Gibson, Becker and Kirlin",
-    "speciality": "electrical",
-    "city": "Rosellaton",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Cormier Inc",
-    "speciality": "electrical",
-    "city": "Apple Valley",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Rippin - Ullrich",
-    "speciality": "plumbing",
-    "city": "Kutchstad",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Kessler, Emmerich and Fahey",
-    "speciality": "plumbing",
-    "city": "New Katheryn",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Luettgen, Hane and Adams",
-    "speciality": "excavation",
-    "city": "Valentinport",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Bergstrom - Dach",
-    "speciality": "excavation",
-    "city": "New Yeseniachester",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Ruecker, Rutherford and Kemmer",
-    "speciality": "plumbing",
-    "city": "East Alethaton",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Lakin - Nicolas",
-    "speciality": "electrical",
-    "city": "Hudsonland",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Ortiz - Zulauf",
-    "speciality": "plumbing",
-    "city": "Lake Brocktown",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Tremblay, Kiehn and Jaskolski",
-    "speciality": "plumbing",
-    "city": "West Pauline",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Friesen, Hettinger and Kozey",
-    "speciality": "electrical",
-    "city": "Rapid City",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Erdman, Oberbrunner and Morar",
-    "speciality": "plumbing",
-    "city": "Kuhnstad",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Sipes - Abernathy",
-    "speciality": "electrical",
-    "city": "Gislasonhaven",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Rohan and Sons",
-    "speciality": "electrical",
-    "city": "East Alanis",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Stehr - Ritchie",
-    "speciality": "excavation",
-    "city": "Lakewood",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Bogisich Inc",
-    "speciality": "electrical",
-    "city": "Kilbackborough",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Farrell, Thiel and Thompson",
-    "speciality": "electrical",
-    "city": "Port Daishaberg",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Borer - Leffler",
-    "speciality": "electrical",
-    "city": "North Arnoland",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Fadel Inc",
-    "speciality": "electrical",
-    "city": "Strosinport",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "O'Connell, Corwin and Schulist",
-    "speciality": "plumbing",
-    "city": "Schummton",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Hirthe, Marquardt and Cremin",
-    "speciality": "plumbing",
-    "city": "Lake Maxwellmouth",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Pollich - Lebsack",
-    "speciality": "electrical",
-    "city": "North Gaylemouth",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Brekke, Turcotte and Mitchell",
-    "speciality": "excavation",
-    "city": "New Milomouth",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Cremin LLC",
-    "speciality": "electrical",
-    "city": "Whitefort",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Dicki, Koelpin and Jerde",
-    "speciality": "plumbing",
-    "city": "Port Noemi",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Green Inc",
-    "speciality": "plumbing",
-    "city": "Zackaryberg",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Ritchie - Hammes",
-    "speciality": "plumbing",
-    "city": "Lake Colby",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Willms, Runolfsson and Rice",
-    "speciality": "plumbing",
-    "city": "Watsicamouth",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Considine Group",
-    "speciality": "plumbing",
-    "city": "Antwonberg",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Brown - Kunde",
-    "speciality": "electrical",
-    "city": "West Rodrigoview",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Jacobson - Douglas",
-    "speciality": "plumbing",
-    "city": "West Eden",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Barrows, Strosin and Maggio",
-    "speciality": "plumbing",
-    "city": "Murrieta",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Jaskolski - Bartell",
-    "speciality": "electrical",
-    "city": "Schuylerport",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Wyman - Steuber",
-    "speciality": "excavation",
-    "city": "New Jaquelinehaven",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Swaniawski, Sporer and Balistreri",
-    "speciality": "electrical",
-    "city": "Marionhaven",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Wiza - Christiansen",
-    "speciality": "electrical",
-    "city": "State College",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Howell LLC",
-    "speciality": "electrical",
-    "city": "Neilborough",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Rolfson - MacGyver",
-    "speciality": "electrical",
-    "city": "Stokesburgh",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Hahn - Gaylord",
-    "speciality": "plumbing",
-    "city": "Keelingland",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Johnston, Friesen and Bartell",
-    "speciality": "plumbing",
-    "city": "Aracelitown",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Collins and Sons",
-    "speciality": "plumbing",
-    "city": "Port Gageside",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "O'Connell, Bashirian and Keeling",
-    "speciality": "plumbing",
-    "city": "Port Prestonland",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Abernathy Inc",
-    "speciality": "excavation",
-    "city": "Gradyhaven",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Gutmann - Ondricka",
-    "speciality": "electrical",
-    "city": "DuBuquehaven",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Kshlerin - Armstrong",
-    "speciality": "electrical",
-    "city": "Cummingsfort",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Rosenbaum Inc",
-    "speciality": "excavation",
-    "city": "North Rocio",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Walsh Inc",
-    "speciality": "excavation",
-    "city": "Nashland",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Breitenberg, Bosco and Quitzon",
-    "speciality": "plumbing",
-    "city": "East Kyramouth",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Heathcote, Kutch and Smith",
-    "speciality": "excavation",
-    "city": "Dellborough",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Bergnaum Group",
-    "speciality": "excavation",
-    "city": "Marymouth",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Mante Group",
-    "speciality": "plumbing",
-    "city": "Tomasabury",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Gibson, Leffler and Gleichner",
-    "speciality": "excavation",
-    "city": "Olaside",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Nicolas - Cole",
-    "speciality": "electrical",
-    "city": "Independence",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Bradtke - Veum",
-    "speciality": "electrical",
-    "city": "Irving",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Hackett - O'Keefe",
-    "speciality": "plumbing",
-    "city": "The Woodlands",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Waters, Tremblay and Haley",
-    "speciality": "plumbing",
-    "city": "Streichland",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Rutherford, Senger and Brown",
-    "speciality": "excavation",
-    "city": "Brookline",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Kunde - Kunze",
-    "speciality": "excavation",
-    "city": "West Oswaldo",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Frami Inc",
-    "speciality": "electrical",
-    "city": "Kuhlmanburgh",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Weissnat, Abshire and Weissnat",
-    "speciality": "electrical",
-    "city": "Thornton",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Franecki, McClure and Wisoky",
-    "speciality": "excavation",
-    "city": "Lake Horaceville",
-    "logo": "http://placekitten.com/g/200/300"
-  },
-  {
-    "name": "Muller Inc",
-    "speciality": "excavation",
-    "city": "Steuberhaven",
-    "logo": "http://placekitten.com/g/200/300"
+    "city": "Schadenmouth",
+    "logo": "https://www.romania-company.com/files/large/4f2afbf44455dc0e57e31d02f30fb89e.png"
   }
 ]
